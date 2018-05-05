@@ -37,7 +37,7 @@
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public",
     "lint": "eslint .",
-    "precommit": "npm run lint App.js"
+    "precommit": "npm run lint"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^3.3.15",
