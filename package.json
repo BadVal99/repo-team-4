@@ -1,6 +1,9 @@
 {
   "name": "shri-boilerplate",
   "version": "0.1.0",
+  "engines": {
+    "npm": "5.7.1"
+  },
   "private": true,
   "proxy": "http://localhost:3001/",
   "dependencies": {
