@@ -27,8 +27,8 @@ const DATABASE_CONFIG = {
  * Socket.io server
  */
 const SERVER_CONFIG = {
-    host: "localhost",
-    port: 3001
+    host: process.env.HOST || process.env.SERVER_HOST || 'localhost',
+    port: process.env.PORT || 8080,
 };
 
 createServer(SERVER_CONFIG, DATABASE_CONFIG)
