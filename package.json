@@ -7,7 +7,6 @@
   "private": true,
   "proxy": "http://localhost:8080/",
   "dependencies": {
-    "babel-eslint": "^8.2.3",
     "concurrently": "^3.5.1",
     "cookie-parser": "^1.4.3",
     "express": "^4.16.2",
