@@ -6,6 +6,6 @@ script:
   - npm run lint
 deploy:
   provider: heroku
+  app: repo-team-4
   api_key:
-    secure: "6.15.5-1f03166 to 6.99.0-ec9edad"  
-  app: repo-team-4  
+    secure: "6.15.5-1f03166 to 6.99.0-ec9edad"
