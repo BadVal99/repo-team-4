@@ -7,5 +7,5 @@
           "node": true
       }
   },
-  "eslintIgnore": ["server.js", "api.js"]
+  "eslintIgnore": ["server.js", "api.js","emoji.js"]
 }
