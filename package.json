@@ -4,6 +4,7 @@
   "private": true,
   "proxy": "http://localhost:3001/",
   "dependencies": {
+    "npm": "5.7.1",
     "babel-eslint": "^8.2.3",
     "concurrently": "^3.5.1",
     "cookie-parser": "^1.4.3",
