@@ -5,7 +5,7 @@
     "npm": "5.7.1"
   },
   "private": true,
-  "proxy": "http://localhost:3001/",
+  "proxy": "http://localhost:8080/",
   "dependencies": {
     "babel-eslint": "^8.2.3",
     "concurrently": "^3.5.1",
@@ -28,7 +28,7 @@
     "uuid": "^3.2.1"
   },
   "scripts": {
-    "start": "concurrently \"yarn client\" \"yarn server\"",
+    "start": "concurrently \"npm run server\" \"npm run client\"",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
