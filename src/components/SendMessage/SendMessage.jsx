@@ -24,7 +24,7 @@ class SendMessage extends Component {
 
     clickEmoji(emoji) {
          const valueText = emoji;
-        document.querySelector('.sendmessage__textarea').value = valueText;
+        document.querySelector('.sendmessage__textarea').value += valueText;
         // this.props.sendMessage(this.props.roomId, valueText);
     }
 
