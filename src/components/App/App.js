@@ -13,7 +13,6 @@ import ChatSettingsLayout from "../ChatSettingsLayout/ChatSettingsLayout";
 
 class App extends Component {
     render() {
-        console.log(999);
         let layout;
         switch (this.props.layout) {
         case "authorization":
